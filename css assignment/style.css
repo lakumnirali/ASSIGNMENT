@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(41, 37, 37);
+}
+body{
+    background-color:rgba(140, 233, 210, 0.564)
+    ;
+}
+.main{
+    display: flex;
+    margin: 40px 30px 40px 30px ;
+}
+.group{
+    border: 2px solid black;
+    margin: 0px 15px 0px 15px;
+}
+
+.img{
+    height: 220px;
+    width:100%;
+    background-color: rgb(164, 220, 220);
+    text-align: center;
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
