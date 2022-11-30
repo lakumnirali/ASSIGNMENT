@@ -5,16 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <STyle>
     *{
-        background-color: rgba(226, 245, 199, 0.696);
+        background-color: rgba(154, 243, 232, 0.696);
         color: black;
+        padding: 0px 20px 0px 20px ;
     }
-
+    .hr1{
+        border: 1px solid ;
+    }
+.Que-ANS{
+    align-items: center;
+    
+}
 </STyle>
 <body>
-    <h1>Que-ANS</h1>
+    <h1 class="Que-ANS"> JavaScript:Que-ANS  </h1>
+    <hr class="hr1">
     <br>
     <br>
     <h3>• What is JavaScript?</h3>
@@ -34,7 +43,7 @@
         <p>Undefined variable means a variable has been declared but does not have a value. Undeclared variable means that the variable does not exist in the program at all.</p>
         <br>
         <h3>• Write the code for adding new elements dynamically? </h3>
-        <p>Syntax: document. createElement("<tagName>"); // Where <tagName> can be any HTML // tagName like div, ul, button, etc. // newDiv element has been created For Eg: let newDiv = document. createElement("div");</p>
+        <p>Syntax: document. createElement("<tagName>"); // Where <tagName> can be any HTML // tagName like div, ul, button, etc. // newDiv element has been created For Eg: let newDiv = document. </p>
             <br>
             <h3>• What is the difference between ViewState and SessionState? </h3>
             <p>The basic difference between these two is that the ViewState is to manage state at the client's end, making state management easy for end-user while SessionState manages state at the server's end, making it easy to manage content from this end too.</p>
@@ -46,7 +55,7 @@
             <p>Another way to alter the style of an element is by changing its class attribute. class is a reserved word in JavaScript, so in order to access the element's class, you use element. className .</p>
             <br>
             <h3>• How to read and write a file using JavaScript? </h3>
-            <p>() and rs. writeFile() methods are used to read and write of a file using javascript. The file is read using the fs. readFile() function, which is an inbuilt method</p>
+            <p>() and rs. writeFile() methods are used to read and write of a file using javascript. The file is read using the fs. </p>
             <br>
             <h3>• What are all the looping structures in JavaScript?</h3>
             <p>JavaScript supports different kinds of loops:
@@ -54,7 +63,7 @@
                 for/in - loops through the properties of an object.
                 for/of - loops through the values of an iterable object.
                 while - loops through a block of code while a specified condition is true.
-                More items...</p>
+              </p>
                 <br>
                 <h3>• How can you convert the string of any base to an integer in JavaScript? </h3>
                 <p>In JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself. This function returns an integer of base which is specified in second argument of parseInt() function.</p>
@@ -72,11 +81,32 @@
                 <p>Approach: We can use window. location property inside the script tag to forcefully load another page in Javascript. It is a reference to a Location object that is it represents the current location of the document. We can change the URL of a window by accessing it.</p>
                 <br>
                 <h3>• What are the disadvantages of using innerHTML in JavaScript? </h3>
-                <p>Disadvantages of innerHTML
-                   •Event handlers attached to any DOM element are preserved.
-                   •Replacement is done everywhere.
-                   •It is not possible to append innerHTML.
-                   •Breaks the document.
-                   • Used for Cross-site Scripting.</p>
+                <p>Disadvantages of innerHTML:
+                  <ul>
+                 <li> Event handlers attached to any DOM element are preserved.</li>
+                 <li> Replacement is done everywhere.</li>
+                 <li> It is not possible to append innerHTML.</li>
+                 <li> Breaks the document.</li>
+                <li> Used for Cross-site Scripting.</li>
+                </ul> 
+            </p>
+            
+                <script>
+$(document).ready(function(){
+  $("h3").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "pink");
+  });
+}); 
+$(document).ready(function(){
+  $("h1").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "pink");
+  });
+}); 
+</script>
+           
 </body>
 </html>
