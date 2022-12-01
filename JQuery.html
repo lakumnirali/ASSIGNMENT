@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<STyle>
+    *{
+        background-color: rgba(239, 143, 214, 0.696);
+        color: rgb(0, 0, 0);
+        padding: 0px 20px 0px 20px ;
+    }
+    .hr1{
+        border: 1px solid ;
+    }
+.Que-ANS{
+    align-items: center;
+    
+}
+</STyle>
+<body>
+    <H1 class="Que-ANS">JQuery Basic, Effects & Advance</H1>
+    <hr class="hr1">
+    <h3>• What is JQuery?</h3>
+    <p>jQuery is a lightweight, "write less, do more", JavaScript library.
+
+        The purpose of jQuery is to make it much easier to use JavaScript on your website.
+        
+        jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+        
+        jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+        
+        The jQuery library contains the following features:
+        
+        HTML/DOM manipulation
+        CSS manipulation
+        HTML event methods
+        Effects and animations
+        AJAX
+        Utilities</p>
+        <br>
+        <h3>• How to Apply CSS Using JQuery, How to Add Class and Remove Class in JQuery,
+            JQuery Animation? </h3>
+            <p>ddClass() - Adds one or more classes to the selected elements. removeClass() - Removes one or more classes from the selected elements. toggleClass() - Toggles between adding/removing classes from the selected elements. css() - Sets or returns the style attribute.</p>
+            <br>
+            <h3>• How to create slider with animation? </h3>
+                <p>There are tons of design trends you can use to get visitors to stop and pay attention to the main hero section on your home page. The only problem is that once a trend gets overplayed, it quickly loses that cool factor that made it so special in the beginning.
+
+                    If you want to make sure your visitors take notice of what you’ve created as well as the messaging contained within it, you need to give them a reason to. A sliced-and-diced slider animation effect they won’t find anywhere else is a sure-fire way to do that.
+                    
+                    In this tutorial, you’ll learn how to use Slider Revolution’s Website Intro Slider template to easily build a hero slider of your own with an impossible-to-miss Slicey effect.
+                    
+                    Table of Contents:
+                    
+                    Step 1: Come up with a strategy for the slider
+                    Step 2: Update the background image in each slide
+                    Step 3: Update the text layers in each slide
+                    Step 4: Edit the button text and design in each slide
+                    Step 5: Edit the slider navigation
+                    </p>
+                    <script>
+                        $(document).ready(function(){
+                          $("h3").hover(function(){
+                            $(this).css("background-color", "blue");
+                            }, function(){
+                            // $(this).css("background-color", "red");
+                          });
+                        }); 
+                        $(document).ready(function(){
+                          $("p").hover(function(){
+                            $(this).css("background-color", "red");
+                            }, function(){
+                            // $(this).css("background-color", "blue");
+                          });
+                        }); 
+                       
+                        </script>
+</body>
+</html>
