@@ -1,0 +1,21 @@
+.log-sec{
+    background-color: #618e9a1b;
+}
+.log-card{
+    border-radius: 1rem;
+}
+.log-img{
+    border-radius: 1rem 0 0 1rem;
+}
+.i-log{
+    color: #ff6219;
+}
+.log-sign{
+    letter-spacing: 1px;
+}
+.log-signup{
+    color: #393f81;
+}
+.log-regis{
+    color: #393f81;
+}

@@ -1,0 +1,127 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "username": "admin",
+      "password": "1",
+      "email": "admin@gmail.com",
+      "mobile": "1234567890",
+      "gender": "male",
+      "role_id": 1,
+      "id": 0
+    },
+    {
+      "username": "new_admin2",
+      "mobile": "9876543210",
+      "email": "gajefa@mailinator.com",
+      "password": "new_password2",
+      "role_id": 3,
+      "id": 2
+    },
+    {
+      "username": "new_test",
+      "mobile": "5555555555",
+      "email": "miniwogi@mailinator.com",
+      "password": "new_password3",
+      "role_id": 2,
+      "id": 3
+    },
+    {
+      "username": "new_user1",
+      "mobile": "1231231234",
+      "email": "kylas@mailinator.com",
+      "password": "new_password4",
+      "role_id": 2,
+      "id": 5
+    },
+    {
+      "username": "new_user2",
+      "mobile": "9999999999",
+      "email": "ricyh@mailinator.com",
+      "password": "new_password5",
+      "role_id": 2,
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "username": "new_user3",
+      "mobile": "8888888888",
+      "email": "terun@mailinator.com",
+      "password": "new_password6",
+      "role_id": 2,
+      "id": 11
+    },
+    {
+      "username": "new_user4",
+      "mobile": "byvycyxyr",
+      "email": "sofimuq@mailinator.com",
+      "password": "new_password7",
+      "role_id": 3,
+      "id": 12
+    },
+    {
+      "username": "new_user5",
+      "mobile": "1111111111",
+      "email": "mafufuqud@mailinator.com",
+      "password": "new_password8",
+      "role_id": 2,
+      "id": 13
+    },
+    {
+      "id": 15,
+      "username": "new_nikhil",
+      "email": "pafyxih@mailinator.com",
+      "password": "new_password9"
+    },
+    {
+      "username": "new_nikhil2",
+      "mobile": "9876543210",
+      "email": "hello@mail.com",
+      "password": "new_password10",
+      "role_id": 2,
+      "id": 16
+    },
+    {
+      "username": "new_nikhil3",
+      "mobile": "1234567890",
+      "email": "nikhil@gmail.com",
+      "password": "new_password11",
+      "role_id": 3,
+      "id": 17
+    },
+    {
+      "username": "new_rizaryv",
+      "mobile": "7777777777",
+      "email": "gypi@mailinator.com",
+      "password": "new_password12",
+      "role_id": 2,
+      "id": 18
+    },
+    {
+      "username": "new_niru",
+      "mobile": "5555555555",
+      "email": "nn@rangaduya",
+      "password": "new_password13",
+      "role_id": 2,
+      "id": 19
+    }
+  ]
+}
